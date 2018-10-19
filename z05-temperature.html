@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cloudiness</title>
+    <title>UCI WVD Homework</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -22,7 +22,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="01-index.html">Latitude</a>
+                <a class="navbar-brand" href="index.html">Latitude</a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -33,24 +33,24 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="05-temperature.html">Temperature</a>
+                                <a href="z05-temperature.html">Temperature</a>
                             </li>
                             <li>
-                                <a href="04-humidity.html">Humidity</a>
+                                <a href="z04-humidity.html">Humidity</a>
                             </li>
                             <li>
-                                <a href="03-cloudiness.html">Cloudiness</a>
+                                <a href="z03-cloudiness.html">Cloudiness</a>
                             </li>
                             <li>
-                                <a href="06-windspeed.html">Wind Speed</a>
+                                <a href="z06-windspeed.html">Wind Speed</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="07-comparison.html">Comparison</a>
+                        <a href="z07-comparison.html">Comparison</a>
                     </li>
                     <li>
-                        <a href="02-data.html">Data</a>
+                        <a href="z02-data.html">Data</a>
                     </li>
                 </ul>
             </div>
@@ -58,36 +58,37 @@
         </div>
     </nav>
 
-    <div class="container">
-        <div class="row row-grid">
-            <div class="col-md-8">
-                <div class="box box-left">
+        <div class="container">
+            <div class="row row-grid">  
+                <div class="col-md-8">
+                    <div class="box box-left">
                     <section id="intro">
-                        <h1><strong>Cloudiness</strong></h1>
+                        <h1><strong>Temperature</strong></h1>
                         <hr>
                         <figure>
-                            <a target="_blank" href="assets/images/Cloudiness_vs_Latitude.png">
-                                <img id="landing-viz" src="assets/images/Cloudiness_vs_Latitude.png" alt="Cloudiness vs. Latitude">
+                            <a target="_blank" href="assets/images/Temperature_vs_Latitude.png">
+                                <img id="landing-viz" src="assets/images/Temperature_vs_Latitude.png" alt="Temperature vs. Latitude">
                             </a>
                         </figure>
-      
+                            
                         <section id="summary">
-                        <p> It is probably not the best parameter to determine the weather changes yet, from the cloudiness table, it is clear that the by increase of distance from the Equator (latitude 0) the percentage of cloudiness is increasing.
+                        <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hamisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.
                         </p>
                         </section>
+        
                     </section>
                 </div>
             </div>
-
+                           
             <div class="col-md-4">
                 <div class="box box-right">
-                <h2><strong>Visualizations</h2>
+                <h2><strong>Visualizations</strong></h2>
                 <hr>
       
                 <div class="row">
                     <div class="col-xs-6 col-sm-3 col-md-6">
                         <figure>
-                            <a href="05-temperature.html">
+                            <a href="z05-temperature.html">
                                 <img id="landing-viz" src="assets/images/Temperature_vs_Latitude.png" alt="Temperature vs. Latitude">
                             </a>
                         </figure>
@@ -95,7 +96,7 @@
                           
                     <div class="col-xs-6 col-sm-3 col-md-6">
                         <figure>
-                            <a href="04-humidity.html">
+                            <a href="z04-humidity.html">
                                 <img id="landing-viz" src="assets/images/Humidity_vs_Latitude.png" alt="Humidity vs. Latitude">
                             </a>
                         </figure>
@@ -103,7 +104,7 @@
       
                     <div class="col-xs-6 col-sm-3 col-md-6">
                         <figure>
-                            <a href="03-cloudiness.html">
+                            <a href="z03-cloudiness.html">
                                 <img id="landing-viz" src="assets/images/Cloudiness_vs_Latitude.png" alt="Cloudiness vs. Latitude">
                             </a>
                         </figure>
@@ -111,23 +112,23 @@
       
                     <div class="col-xs-6 col-sm-3 col-md-6">
                         <figure>
-                            <a href="06-windspeed.html">
+                            <a href="z06-windspeed.html">
                                 <img id="landing-viz" src="assets/images/Wind_Speed_vs_Latitude.png"  alt="Wind Speed vs. Latitude"> 
                             </a>
                         </figure>
                     </div>
-  
                 </div>
             </div>
+
         </div>
-    </div>
-        
+    </div>                 
+
     <div>
         <hr class="featurette-divider">
         <footer>
             <p>&copy; Copyright Coding Bootcamp 2018 | UC Irvine | SH.N.</p>
         </footer>            
-    </div>
+    </div>   
 
     <script
     src="https://code.jquery.com/jquery-3.2.1.js"
